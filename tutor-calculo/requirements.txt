@@ -1,0 +1,7 @@
+# Processamento e RAG
+numpy>=1.21.0
+scikit-learn>=1.0.0
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+requests>=2.28.0
+Flask>=2.3.0

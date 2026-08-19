@@ -1,0 +1,48 @@
+# DERIVADAS EM CÁLCULO
+
+## DEFINIÇÃO:
+A derivada de uma função f(x) em um ponto x=a é a taxa de variação instantânea da função nesse ponto.
+
+Definição formal: f'(a) = lim(h→0) [f(a+h) - f(a)]/h
+
+## INTERPRETAÇÕES:
+- Geométrica: Inclinação da reta tangente à curva
+- Física: Velocidade instantânea
+- Econômica: Custo marginal
+
+## REGRAS DE DERIVAÇÃO:
+
+### 1. REGRA DA POTÊNCIA:
+d/dx[x^n] = n*x^(n-1)
+Exemplo: d/dx[x³] = 3x²
+
+### 2. REGRA DA CONSTANTE:
+d/dx[c] = 0
+Exemplo: d/dx[5] = 0
+
+### 3. REGRA DA SOMA:
+d/dx[f(x) + g(x)] = f'(x) + g'(x)
+Exemplo: d/dx[x² + 3x] = 2x + 3
+
+### 4. REGRA DO PRODUTO:
+d/dx[f(x)*g(x)] = f'(x)*g(x) + f(x)*g'(x)
+Exemplo: d/dx[x²*sin(x)] = 2x*sin(x) + x²*cos(x)
+
+### 5. REGRA DO QUOCIENTE:
+d/dx[f(x)/g(x)] = [f'(x)*g(x) - f(x)*g'(x)] / [g(x)]²
+Exemplo: d/dx[sin(x)/x] = [x*cos(x) - sin(x)]/x²
+
+### 6. REGRA DA CADEIA:
+d/dx[f(g(x))] = f'(g(x)) * g'(x)
+Exemplo: d/dx[sin(x²)] = cos(x²) * 2x
+
+## DERIVADAS DE FUNÇÕES ELEMENTARES:
+- d/dx[sin(x)] = cos(x)
+- d/dx[cos(x)] = -sin(x)
+- d/dx[e^x] = e^x
+- d/dx[ln(x)] = 1/x
+
+## APLICAÇÕES:
+- Otimização: Encontrar máximos e mínimos
+- Taxas relacionadas: Problemas com múltiplas variáveis
+- Análise de funções: Crescimento e concavidade

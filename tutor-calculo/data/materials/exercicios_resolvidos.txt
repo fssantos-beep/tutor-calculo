@@ -1,0 +1,50 @@
+# EXERCÍCIOS RESOLVIDOS - CÁLCULO
+
+## LIMITES - EXEMPLOS:
+
+### EXEMPLO 1: Limite por substituição
+Calcule: lim(x→2) (3x² - 2x + 1)
+Solução: Substituindo x=2: 3(4) - 2(2) + 1 = 12 - 4 + 1 = 9
+
+### EXEMPLO 2: Limite com fatoração
+Calcule: lim(x→3) (x² - 9)/(x - 3)
+Solução: Fatorando: (x-3)(x+3)/(x-3) = x+3 → 3+3 = 6
+
+### EXEMPLO 3: Limite fundamental
+Calcule: lim(x→0) sin(x)/x
+Solução: Este é um limite fundamental que vale 1
+
+## DERIVADAS - EXEMPLOS:
+
+### EXEMPLO 1: Regra da potência
+Derive: f(x) = 4x³
+Solução: f'(x) = 12x²
+
+### EXEMPLO 2: Regra do produto
+Derive: f(x) = x² * sin(x)
+Solução: f'(x) = 2x*sin(x) + x²*cos(x)
+
+### EXEMPLO 3: Regra da cadeia
+Derive: f(x) = (3x + 1)⁴
+Solução: f'(x) = 4(3x+1)³ * 3 = 12(3x+1)³
+
+## INTEGRAIS - EXEMPLOS:
+
+### EXEMPLO 1: Integral básica
+Calcule: ∫2x dx
+Solução: (2x²)/2 + C = x² + C
+
+### EXEMPLO 2: Integral definida
+Calcule: ∫[0,2] 3x² dx
+Solução: [x³] de 0 a 2 = 8 - 0 = 8
+
+### EXEMPLO 3: Integral por substituição
+Calcule: ∫2x * e^(x²) dx
+Solução: u = x², du = 2x dx → ∫e^u du = e^u + C = e^(x²) + C
+
+## DICAS PARA RESOLUÇÃO:
+1. Sempre verifique se a função é contínua
+2. Para limites indeterminados, tente fatoração
+3. Na derivação, identifique qual regra usar
+4. Na integração, verifique se há substituição óbvia
+5. Sempre adicione +C em integrais indefinidas

@@ -1,0 +1,77 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor de Cálculo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tutor de Cálculo</h1>
+            <p>Seu assistente pessoal para aprender Cálculo</p>
+        </header>
+
+        <div class="config-panel">
+            <div class="config-item">
+                <label for="level">Nível:</label>
+                <select id="level">
+                    <option value="básico">Básico</option>
+                    <option value="intermediário" selected>Intermediário</option>
+                    <option value="avançado">Avançado</option>
+                </select>
+            </div>
+            <div class="config-item">
+                <label for="theme">Tema:</label>
+                <select id="theme">
+                    <option value="limites">Limites</option>
+                    <option value="derivadas" selected>Derivadas</option>
+                    <option value="integrais">Integrais</option>
+                    <option value="sequências">Sequências e Séries</option>
+                    <option value="geral">Geral</option>
+                </select>
+            </div>
+            <button id="generateExercisesBtn" class="btn-secondary">Gerar Exercícios</button>
+            <button id="summaryBtn" class="btn-secondary">Resumo da Sessão</button>
+        </div>
+
+        <div class="main-content">
+            <div class="chat-container">
+                <div id="chatMessages" class="chat-messages">
+                    <div class="message tutor-message">
+                        <div class="message-header">Tutor</div>
+                        <div class="message-content">
+                            Olá! Sou seu tutor de Cálculo. Como posso ajudá-lo hoje? 
+                            Pode me fazer perguntas sobre limites, derivadas, integrais ou qualquer outro tópico de Cálculo!
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chat-input">
+                    <div class="chat-input-container">
+                        <textarea id="messageInput" placeholder="Digite sua pergunta sobre Cálculo... (Enter para enviar, Shift+Enter para nova linha)" rows="1"></textarea>
+                        <button id="sendMessage" class="btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="sidebar-section">
+                    <h3>Resumo da Sessão</h3>
+                    <div id="summaryContent" class="summary-content">
+                        <p>Inicie uma conversa para ver o resumo aqui.</p>
+                    </div>
+                </div>
+                
+                <div class="sidebar-section">
+                    <h3>Exercícios</h3>
+                    <div id="exercisesContent" class="exercises-content">
+                        <p>Clique em "Gerar Exercícios" para praticar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+# LIMITES EM CÁLCULO
+
+## DEFINIÇÃO:
+O limite de uma função f(x) quando x tende a um valor "a" é o valor que f(x) se aproxima à medida que x se aproxima de "a".
+
+Notação: lim(x→a) f(x) = L
+
+## PROPRIEDADES DOS LIMITES:
+1. lim(x→a) [f(x) + g(x)] = lim(x→a) f(x) + lim(x→a) g(x)
+2. lim(x→a) [f(x) - g(x)] = lim(x→a) f(x) - lim(x→a) g(x)
+3. lim(x→a) [f(x) * g(x)] = lim(x→a) f(x) * lim(x→a) g(x)
+4. lim(x→a) [f(x) / g(x)] = lim(x→a) f(x) / lim(x→a) g(x) [se g(a) ≠ 0]
+
+## LIMITES FUNDAMENTAIS:
+1. lim(x→0) sin(x)/x = 1
+2. lim(x→∞) (1 + 1/x)^x = e
+3. lim(x→0) (e^x - 1)/x = 1
+
+## TÉCNICAS DE CÁLCULO:
+- Substituição Direta: Quando a função é contínua
+- Fatoração: Para formas indeterminadas 0/0
+- Racionalização: Para limites com raízes
+- Regra de L'Hôpital: Para limites indeterminados
+
+## EXEMPLOS PRÁTICOS:
+1. lim(x→2) (3x + 1) = 3(2) + 1 = 7
+2. lim(x→3) (x² - 9)/(x - 3) = lim(x→3) (x + 3) = 6
+3. lim(x→0) sin(3x)/x = 3

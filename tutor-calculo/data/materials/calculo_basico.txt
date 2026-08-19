@@ -1,0 +1,20 @@
+# CONCEITOS FUNDAMENTAIS DE CÁLCULO
+
+## O QUE É CÁLCULO?
+Cálculo é o ramo da matemática que estuda taxas de variação (derivadas) e acúmulo de quantidades (integrais).
+
+## DIVISÕES PRINCIPAIS:
+1. Cálculo Diferencial: Estuda derivadas e suas aplicações
+2. Cálculo Integral: Estuda integrais e suas aplicações
+
+## APLICAÇÕES PRÁTICAS:
+- Física: Movimento, força, energia
+- Engenharia: Otimização, projetos
+- Economia: Custos marginais, maximização de lucros
+- Biologia: Taxas de crescimento populacional
+
+## CONCEITOS-CHAVE:
+- Limites: Comportamento de funções em pontos específicos
+- Continuidade: Funções sem interrupções
+- Derivadas: Taxas de variação instantânea
+- Integrais: Acúmulo de quantidades

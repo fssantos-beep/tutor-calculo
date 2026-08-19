@@ -1,0 +1,55 @@
+# INTEGRAIS EM CÁLCULO
+
+## DEFINIÇÃO:
+A integral é o processo inverso da derivação. Enquanto a derivada representa uma taxa de variação, a integral representa um acúmulo.
+
+## TIPOS DE INTEGRAIS:
+
+### 1. INTEGRAL INDEFINIDA:
+∫f(x) dx = F(x) + C, onde F'(x) = f(x)
+
+### 2. INTEGRAL DEFINIDA:
+∫[a,b] f(x) dx = F(b) - F(a)
+
+## INTERPRETAÇÕES:
+- Geométrica: Área sob a curva
+- Física: Trabalho, deslocamento
+- Econômica: Acúmulo de capital
+
+## REGRAS BÁSICAS DE INTEGRAÇÃO:
+
+### 1. REGRA DA POTÊNCIA:
+∫x^n dx = (x^(n+1))/(n+1) + C, para n ≠ -1
+
+### 2. REGRA DA CONSTANTE:
+∫k dx = kx + C
+
+### 3. REGRA DA SOMA:
+∫[f(x) + g(x)] dx = ∫f(x) dx + ∫g(x) dx
+
+## TÉCNICAS DE INTEGRAÇÃO:
+
+### 1. SUBSTITUIÇÃO:
+∫f(g(x)) * g'(x) dx = ∫f(u) du, onde u = g(x)
+
+### 2. INTEGRAÇÃO POR PARTES:
+∫u dv = uv - ∫v du
+
+### 3. FRAÇÕES PARCIAIS:
+Para integrar funções racionais
+
+## INTEGRAIS IMPORTANTES:
+- ∫x dx = (1/2)x² + C
+- ∫sin(x) dx = -cos(x) + C
+- ∫cos(x) dx = sin(x) + C
+- ∫e^x dx = e^x + C
+- ∫(1/x) dx = ln|x| + C
+
+## TEOREMA FUNDAMENTAL DO CÁLCULO:
+Se F'(x) = f(x), então ∫[a,b] f(x) dx = F(b) - F(a)
+
+## APLICAÇÕES:
+- Cálculo de áreas e volumes
+- Trabalho em física
+- Valor médio de funções
+- Comprimento de arcos
